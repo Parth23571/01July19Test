@@ -1,0 +1,25 @@
+package sel1.test1.openBrowser;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OpenBrowser1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try
+		{
+			System.setProperty("webdriver.chrome.driver","");
+			WebDriver driver=new ChromeDriver();
+			
+			
+		}
+		
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+
+}
