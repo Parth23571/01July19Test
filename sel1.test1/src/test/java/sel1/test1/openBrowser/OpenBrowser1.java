@@ -2,13 +2,16 @@ package sel1.test1.openBrowser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 /*
  * First Commit
+ * Second
  */
 public class OpenBrowser1 {
 
-	public static void main(String[] args) {
+	@Test
+	public void Test12(){
 		// TODO Auto-generated method stub
 
 		try
